@@ -1,0 +1,103 @@
+* {
+    color: rgb(63, 35, 5);
+}
+
+body {
+    background-color: rgb(246, 237, 221);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+hr{
+    width:40%;
+    size: 20px;
+    box-align:center;
+}
+.title{
+    width:40%;
+    size: 20px;
+    box-align:center;
+
+}
+.container {
+    margin-bottom: auto;
+    padding: 0;
+    position: relative;
+    top: 80px;
+
+    bottom: 100px;
+    height: 90%;
+    border: none;
+    overflow: hidden;
+    padding-left: 20%;
+    padding-right: 20%;
+
+
+ 
+}
+.container ul li {
+    display:block;
+    padding: 5px;
+    list-style: none;
+    margin: auto;
+
+}
+
+.home-button button {
+    position: absolute;
+    left: 10px;
+    border-radius: 9px;
+    flex-shrink: 0;
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(132, 86, 30);
+    transition: 0.5s;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.home-button button:hover {
+    background-color: hsl(214, 16%, 91%);
+}
+h5{
+    position: relative;
+    left: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+
+
+    .home-button{ width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 12px;
+        height: auto;}
+    .container{ width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 12px;
+        height: auto;}
+    .footer {
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 12px;
+        height: auto;
+    }
+}

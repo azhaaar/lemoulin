@@ -1,0 +1,150 @@
+*{
+    color:rgb(63, 35, 5);
+    font-family: 'Almarai', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    background: linear-gradient(to top, rgb(98, 59, 28)5%, rgb(202, 173, 140), rgb(246, 237, 221));
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+.language-button button{
+    position: absolute;
+    right: 10px;
+    border-radius: 9px;
+    flex-shrink: 0;
+    width: 100px;
+    height: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+    background-color: rgb(132, 86, 30);
+    transition: 0.5s;
+    margin-bottom: 12px;
+    margin-top: 12px;
+
+}
+
+
+.language-button button:hover {
+    background-color: hsl(214, 16%, 91%);
+}
+h1{
+
+    text-align: center;
+  
+  
+}
+hr{
+    width:40%;
+    size: 20px;
+    box-align:center;
+
+    
+}
+h2{
+    text-align: center;
+    
+} 
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top:auto;
+}
+
+img {
+   border-radius: 42%;
+   width: 180px;
+   outline-offset: 1px;
+   margin-bottom: 10px;
+   
+}
+
+.button {
+    margin: 10px;
+    
+}
+
+.button button {
+    border-radius: 9px;
+    flex-shrink: 0;
+    width: 150px; 
+    background: linear-gradient(to top,rgba(223, 211, 195,0.1), rgb(240, 236, 226));
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: 0.5s;
+}
+
+.button button:hover{
+    background-color: hsl(214, 16%, 91%);
+    
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    display:flex;
+    justify-content:space-between;
+    padding: 5px 0;
+    margin:0%;
+    position: relative;
+    height: auto;
+    width: 100%;
+   
+   }
+   
+   .footer-contact, .footer-social {
+    padding: 0 20px;
+    margin-bottom: 0px;
+    transition: 2s;
+   }
+
+   .footer-contact h3, .footer-social h3 {
+    margin-bottom: 10px;
+
+   }
+   
+    .footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    }
+   
+    .footer-social li {
+    margin-bottom: 5px;
+       }
+   
+   .footer-social a {
+    text-decoration: none;
+   }
+   
+
+
+   @media screen and (max-width: 690px),(max-width: 800px),(max-width: 1690px),(max-width: 400px) {
+    
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 20px; 
+    }
+    .parent {
+        width: 100%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
